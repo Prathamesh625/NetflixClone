@@ -1,0 +1,27 @@
+.nav {
+  width: 100%;
+  background-color: black;
+  height: 60px;
+  position: fixed;
+  justify-content: space-between;
+}
+.nav_logo {
+  width: 5rem;
+  left: 1rem;
+  position: fixed;
+  align-self: center;
+}
+
+.nav_avatar {
+  width: 2rem;
+  object-fit: contain;
+  position: fixed;
+  right: 10px;
+  align-self: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    height: 80px;
+  }
+}

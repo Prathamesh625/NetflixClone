@@ -1,0 +1,13 @@
+* {
+  margin: 0px;
+}
+
+.App {
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    width: 100%;
+  }
+}
